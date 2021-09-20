@@ -1,0 +1,2 @@
+# GPOTypeLocal-
+;;IGroupPolicyObject #RequireAdmin #include-once #include &lt;WinAPIConstants.au3> ; $S_OK #include &lt;WinAPIReg.au3> ;_WinAPI_GetRegKeyNameByHandle  Global Enum $GPO_SECTION_ROOT = 0x0, $GPO_SECTION_USER, $GPO_SECTION_MACHINE Global Enum $GPO_OPEN_LOAD_REGISTRY = 0x1, $GPO_OPEN_READ_ONLY Global Enum $GPO_OPTION_DISABLE_USER = 0x1, $GPO_OPTION_DISABLE_MACHINE Global Enum $GPOTypeLocal = 0x0, $GPOTypeRemote, $GPOTypeDS, $GPOTypeLocalUser, $GPOTypeLocalGroup
